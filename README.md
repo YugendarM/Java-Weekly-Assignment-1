@@ -70,19 +70,27 @@ public class NumCompare {
 
 ## 3. Write a Java program to convert a string to an integer
 ```java
-public class Convert {
-    public static void convert(){
-        double val1 = 100.235;
-        int val2 = (int)val1;
-        System.out.println("The int value of "+val1+" is:"+val2);
+import java.util.Scanner;
+public class StringtoInt {
+    public static int convert(String input)
+    {
+        int value = Integer.aparseInt(input);
+        return value;
+    }
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the String to conver into Integer:");
+        String input = sc.nextLine();
+        System.out.println("Integer for the entered String is:"+convert(input));
+
+
 
     }
-    public static void main(String[] args) {
-       convert();
 
 
-    }
 }
+
 
 ```
 ## OUTPUT
