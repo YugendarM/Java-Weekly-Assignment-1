@@ -41,4 +41,4 @@ public class ArithmaticOperations
 ## OUTPUT
 [!Output](Outputs/arithOperation.png)
 sdhfbaosidhf;uiahsdfuh
-<img src = "outputs/arithOperation.png">
+
