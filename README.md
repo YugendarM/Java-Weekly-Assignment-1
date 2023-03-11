@@ -39,5 +39,6 @@ public class ArithmaticOperations
 }
 ```
 ## OUTPUT
-[!Output](outputs/arithOperation.png)
+[!Output](Outputs/arithOperation.png)
+sdhfbaosidhf;uiahsdfuh
 <img src = "outputs/arithOperation.png">
