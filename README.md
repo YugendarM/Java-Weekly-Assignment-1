@@ -44,48 +44,29 @@ public class ArithmaticOperations
 ## 2.Write a Java program to compare two numbers
 ```java
 import java.util.Scanner;
-
-public class Compare {
-    public static void compare1(){
-        Scanner sca = new Scanner(System.in);
-        System.out.println("Enter any three numbers:");
-        int a= sca.nextInt();
-        int b= sca.nextInt();
-        int c= sca.nextInt();
-        if(a==b && b==c)
+public class NumCompare {
+    public static void main(String[] args){
+        int a,b;
+        System.out.println("Enter the value for a and b");
+        Scanner sc = new Scanner (System.in);
+        a = sc.nextInt();
+        b = sc.nextInt();
+        if(a>b)
         {
-            System.out.println("All the three numbers are equal");
+            System.out.println("a is greater than b");
         }
-        else if(a==b || a==c || b==c)
+        else if(a<b)
         {
-            System.out.println("Two of the three numbers are equal");
-            if(a==b)
-            {
-                System.out.println(a+" and "+b+" are equal");
-            }
-            else if(b==c)
-            {
-                System.out.println(b+" and "+c+" are equal");
-            }
-            else {
-                System.out.println(a+" and "+c+" are equal");
-            }
+            System.out.println("b is greater than a");
         }
         else {
-            System.out.println("Any of the three numbers are not equal");
+            System.out.println("a is equal to b");
         }
-    }
-
-    public static void main(String[] args){
-
-        compare1();
-
-
     }
 }
 ```
 ## OUTPUT
-[!Output](Outputs/numCompare.png)
+![numCompare](Outputs/numCompare.png)
 
 ## 3. Write a Java program to convert a string to an integer
 ```java
@@ -105,7 +86,7 @@ public class Convert {
 
 ```
 ## OUTPUT
-[!Output](Outputs/stringtoint.png)
+![Output](Outputs/stringtoint.png)
 
 ## 4.Java Program to find area of rhombus
 ```java
@@ -128,7 +109,7 @@ public class AreaofRhombus {
 
 ```
 ## OUTPUT
-[!Output](Outputs/areaOfRhombus.png)
+![Output](Outputs/areaOfRhombus.png)
 
 ## 5.Write a Java program to find the number of days in a month
 ```java
@@ -169,7 +150,7 @@ public class DayMonthCalc {
 
 ```
 ## OUTPUT
-[!Output](Outputs/dayMonthCalc.png)
+![Output](Outputs/dayMonthCalc.png)
 
 ## 6.Write a Java program to print the even numbers from 1 to 20
 ```java
@@ -195,7 +176,7 @@ public class EvenNUm {
 
 ```
 ## OUTPUT
-[!Output](Outputs/evenNum.png)
+![Output](Outputs/evenNum.png)
 
 ## 7.Write a Java program to create a simple calculator
 ```java
@@ -238,7 +219,7 @@ public class Calculator {
 
 ```
 ## OUTPUT
-[!Output](Outputs/calculator.png)
+![Output](Outputs/calculator.png)
 
 ## 8.Write a Java program to print multiplication table of given number
 ```java
@@ -264,4 +245,4 @@ public class MultiplicationTable {
 
 ```
 ## OUTPUT
-[!Output](Outputs/mulTables.png)
+![Output](Outputs/mulTables.png)
