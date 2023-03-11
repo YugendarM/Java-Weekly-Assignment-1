@@ -39,6 +39,6 @@ public class ArithmaticOperations
 }
 ```
 ## OUTPUT
-[!Output](Outputs/arithOperation.png)
-sdhfbaosidhf;uiahsdfuh
+![arithOperation](https://user-images.githubusercontent.com/119681539/224487772-c49701f0-802b-4885-ba2f-8f11a4ca3380.png)
+
 
