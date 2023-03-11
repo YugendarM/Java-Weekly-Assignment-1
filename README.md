@@ -74,7 +74,7 @@ import java.util.Scanner;
 public class StringtoInt {
     public static int convert(String input)
     {
-        int value = Integer.aparseInt(input);
+        int value = Integer.parseInt(input);
         return value;
     }
     public static void main(String[] args)
